@@ -1,0 +1,45 @@
+body{
+    margin: 3px;
+    padding: 4px;
+    color: green;
+}
+
+.content{
+    color: black;
+    margin: 4px;
+    text-align: center;
+}
+
+table, tr, th, td, .no-tasks{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted lightblue;
+}
+
+th{
+    height: 40px;
+    background-color: rgba(122, 122, 122, 0.6);
+}
+td{
+    width: 15%;
+}
+
+td:first-child{
+    font-weight: bold;
+    width: 20%;
+}
+
+td:last-child{
+    width: 10%;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.no-tasks{
+    border: 1px dashed cyan;
+    background-color: rgba(122, 122, 122, 0.6);
+    font-size: 1.25em;
+}
